@@ -1,0 +1,77 @@
+
+#1
+ans:
+
+#2
+ans: a.
+Observer pattern, because all the displays textual, visual and graphic.
+Need to auto adjust with changes in data, and this matches the behaviour of observer perfectly.
+
+#3
+ans: c.
+Singleton, only one instance in all the hospital systems, is obviously Singleton.
+
+#4
+ans: a.
+State pattern, the behaviour of the order changes based on the state it is in.
+
+#5
+ans: a.
+Template method, this closely resembles what we have done in class with SQLite, Postgres, Mongo, Json.
+The idea and staps are similar the implementation somewhat different.
+
+#6
+ans: b.
+Facade pattern, because it essentially is a "facade" to hide more complex internal processes.
+
+#7
+ans: a.
+Decorator, this is essentially what you explained and we have done in class and at home with pizzas and spaceships.
+Though we did not learn or implement remove at the time but it is possible.
+
+#8
+ans: b.
+Chain of responsibility, a "chain of security checks"... it is in the name.
+Besides it approves, denies or PASSES on the request.
+This is very chain like behaviour, and i guess if somehow (my best bet is alien invasion)
+world peace comes and geographical location no longer an issue chain can easily be changed.
+
+#9
+ans: b.
+Composite pattern, because it allows for functionality (change brightness)
+on both a leaf (a single picture taken at "Park Güell") a sub branch ("Second day of Barcelona" sub-album)
+or main branch ("Vacation in Spain" album).
+
+#10
+ans: b.
+Abstract Factory, this is like what you showed with the expensive vs garden furniture, only SoftwareLinuxFactory
+SoftwareMacFactory and SoftwareWindowsFactory, instead of furniture.
+
+#11.
+ans: c.
+Facade, a single interface hiding the complexity of trying to mash together different systems and interfaces.
+I would also suggest something like Adapter as a way to make data from different systems mash together into
+one single interface, but was not an option.
+
+#12
+ans: a.
+Strategy, just like the payment method thing we did.
+
+#13
+ans: b.
+Decorator, I'd rather use an @decorator not a pattern, but assuming a pattern is needed
+this one adds the "anchovies" without changing the "pizza", and it allows such functionality.
+
+#14
+ans: b.
+Iterator, you can iterate in the dungeon between rooms and corridors,
+regardless of the kind of object in question(assuming there are no dragons).
+
+Visitor seams like the logical choice as it is very similar to the description of this pattern
+but I do not remember us learning this pattern,
+and it does not match the (דרך פשוטה ואחידה לעבור על כל אלמנטי המבוך ללא צורך בהבנת המבנה הפנימי שלו), thing I think.
+
+#15
+ans: a.
+Factory, this is the exact example that you gave us in the preparation exercise.
+This can also be done in Builder pattern but i think factory does this much better.
